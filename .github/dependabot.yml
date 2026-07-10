@@ -4,8 +4,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    cooldown:
-      default-days: 5
+    open-pull-requests-limit: 0
     labels:
       - "dependencies"
       - "go"
@@ -17,8 +16,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    cooldown:
-      default-days: 5
+    open-pull-requests-limit: 0
     labels:
       - "dependencies"
       - "github-actions"
